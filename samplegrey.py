@@ -1,4 +1,4 @@
-**********import opencv2
+hello**********import opencv2
 image = cv2.imread('394854.jpg')
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 cv2.imwrite('gray_image.png',gray_image)
